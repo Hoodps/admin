@@ -167,7 +167,7 @@ export const appRouter = [
         path: '/form',
         icon: 'android-checkbox',
         name: 'form',
-        title: '表单编辑',
+        title: '表单编辑s',
         component: Main,
         children: [
             { path: 'artical-publish', title: '文章发布', name: 'artical-publish', icon: 'compose', component: () => import('@/views/form/article-publish/article-publish.vue') },
