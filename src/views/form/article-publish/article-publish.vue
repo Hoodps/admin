@@ -9,7 +9,7 @@
             <Col span="18">
                 <Card>
                     <Form :label-width="80">
-                        <FormItem label="文章标题" :error="articleError">
+                        <FormItem label="文章标题s" :error="articleError">
                             <Input v-model="articleTitle" @on-blur="handleArticletitleBlur" icon="android-list"/>
                         </FormItem>
                         <div class="article-link-con">
